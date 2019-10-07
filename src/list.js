@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './card'
 import './list.css'
 
+
 function List(props) {
     const cardArr = props.cards.map(card => 
         <Card title={card.title} content={card.content} key ={card.id}/>
